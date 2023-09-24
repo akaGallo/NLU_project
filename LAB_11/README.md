@@ -84,7 +84,7 @@ cd part_1
 python main.py
 ```
 
-NOTE: if the `trained = True` option has been considered in the main, the output will provide the main accuracy value on the entire datasets (in case of `subjectivity_polarity.pt` model the dataset used is `polarity_subjective_sentences.zip` and `polarity_subjective_labels.zip` for sentences and labels respectively, located in the folder `dataset`) for each of the best three models saved in the `/bin` folder, otherwise the training process will start again from the beginning for each model.
+NOTE: if the `trained = True` option has been considered in the main, the output will provide the main accuracy value on the entire datasets for each of the first two best models saved in the `/bin` folder (in case of `subjectivity_polarity.pt` model the dataset used is `polarity_subjective_sentences.zip` and `polarity_subjective_labels.zip` for sentences and labels respectively, located in the folder `dataset`), otherwise the training process will start again from the beginning for each model.
 
 ### Part 2
 For the last part, the output provides the accuracy of our best model used subsequently for obtaining the final results for the Aspect Terms Extraction and Polarity Detection tasks.
