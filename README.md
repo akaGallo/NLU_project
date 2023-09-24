@@ -50,7 +50,7 @@ Below are listed the steps required for correctly using this repository. Follow 
 ```bash
 git clone https://github.com/akaGallo/NLU_project.git
 ```
-Please note that the Git repository you're going to download is about **3.4 GB** in size.
+Please note that the Git repository you're going to download is about **5 GB** in size.
 
 ### Step 2: load the correct model files
 The best-trained models, all built upon the extensive pre-trained BERT model, demand significant computational resources due to their substantial size (**438 MB**). To manage this bulk, each model had to be partitioned into five subfiles, employing the following command: `split -b 90M name_of_the_model.pt name_of_the_model`. To reconstruct the original `.pt` model file, you must execute the commands below, allowing us to efficiently handle and reassemble these computationally intensive models while conserving storage space.
