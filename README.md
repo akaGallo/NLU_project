@@ -57,11 +57,11 @@ The best-trained models, all built upon the extensive pre-trained BERT model, de
 
 IMPORTANT NOTE: to ensure the proper execution of the aforementioned commands, please remember to navigate to the folder of the project `~/NLU_project`. This crucial step ensures that the commands are executed in the correct directory, preventing any potential errors and ensuring the successful reconstruction of the model files.
 
-- `BERT.pt` in folder *LAB_10/part_2/bin*
-- `subjectivity.pt` in folder *LAB_11/part_1/bin*
-- `polarity.pt` in folder *LAB_11/part_1/bin*
-- `subjectivity_polarity.pt` in folder *LAB_11/part_1/bin*
-- `Aspect_based_sentiment_analysis.pt` in folder *LAB_11/part_2/bin*
+- `BERT.pt` in folder [*LAB_10/part_2/bin*](https://github.com/akaGallo/NLU_project/tree/main/LAB_10/part_2/bin)
+- `subjectivity.pt` in folder [*LAB_11/part_1/bin*](https://github.com/akaGallo/NLU_project/tree/main/LAB_11/part_1/bin)
+- `polarity.pt` in folder [*LAB_11/part_1/bin*](https://github.com/akaGallo/NLU_project/tree/main/LAB_11/part_1/bin)
+- `subjectivity_polarity.pt` in folder [*LAB_11/part_1/bin*](https://github.com/akaGallo/NLU_project/tree/main/LAB_11/part_1/bin)
+- `Aspect_based_sentiment_analysis.pt` in folder [*LAB_11/part_2/bin*](https://github.com/akaGallo/NLU_project/tree/main/LAB_11/part_2/bin)
 
 ```bash
 cd LAB_10/part_2/bin
