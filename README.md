@@ -83,7 +83,7 @@ The following image provides an illustrative example of the steps mentioned earl
 ![Alt text](Results/ALL.png)
 
 ## GPU-Enabled Virtual Lab
-In our project, we have leveraged a virtual lab environment hosted on **Microsoft Azure** to expedite the training process for our models in *LAB_09*, *LAB_10* and *LAB_11* as part of the Natural Language Understanding project. Microsoft Azure has provided us with a **GPU-enabled Linux virtual machine**, which has proven instrumental in carrying out the course activities efficiently. However, it's essential to note that we were granted a maximum of 100 hours of effective usage for this virtual machine. This allocation has been fully utilized to ensure that we achieve the best possible model training outcomes for the exercises in this course.
+In our project, we have leveraged a virtual lab environment hosted on [**Microsoft Azure**](https://azure.microsoft.com/it-it/products/virtual-machines/) to expedite the training process for our models in *LAB_09*, *LAB_10* and *LAB_11* as part of the Natural Language Understanding project. Microsoft Azure has provided us with a **GPU-enabled Linux virtual machine**, which has proven instrumental in carrying out the course activities efficiently. However, it's essential to note that we were granted a maximum of 100 hours of effective usage for this virtual machine. This allocation has been fully utilized to ensure that we achieve the best possible model training outcomes for the exercises in this course.
 
 <img src="Results/GPU.png" width="340" height="300">
 
