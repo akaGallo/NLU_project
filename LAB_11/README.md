@@ -84,6 +84,15 @@ cd part_1
 python main.py
 ```
 
-I've preserved these files because the process of creating them from scratch is computationally intensive and time-consuming. To utilize them, you can simply unzip the files and use the extracted data as your dataset for the polarity classification task with objective sentence removal.
+NOTE: if the `trained = True` option has been considered in the main, the output will provide the main accuracy value on the whole dataset (in case of `subjectivity_polarity.pt` model the dataset used is `polarity_subjective_sentences.zip` and `polarity_subjective_labels.zip` for sentences and labels respectively, located in the folder `dataset`) for each of the best three models saved in the `/bin` folder, otherwise the training process will start again from the beginning for each model.
+
 ### Part 2
-Not delivered ☹️
+For the last part, the output provides the accuracy of our best model used subsequently for obtaining the final results for the Aspect Terms Extraction and Polarity Detection tasks.
+1. Enter in the folder `part_2`.
+2. Run the `main.py` script.
+```bash
+cd part_1
+python main.py
+```
+
+NOTE: if the `trained = True` option has been considered in the main, the output will provide the test accuracy value for our best model saved in the `/bin` folder, otherwise the training process will start again from the beginning for the aforementioned model.
