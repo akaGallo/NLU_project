@@ -85,7 +85,7 @@ cat BERTaa BERTab BERTac BERTad BERTae > BERT.pt
 del BERTa*
 
 cd ../../../LAB_11/part_1/bin
-cat SUBaa SUBab SUBac SUBad SUBae > subjectivity.pt
+copy /b SUBaa+SUBab+SUBac+SUBad+SUBae subjectivity.pt
 del SUBa*
 cat POLaa POLab POLac POLad POLae > polarity.pt
 del POLaa POLab POLac POLad POLae
