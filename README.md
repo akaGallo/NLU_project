@@ -77,6 +77,18 @@ cat ABSAaa ABSAab ABSAac ABSAad ABSAae > Aspect_based_sentiment_analysis.pt
 rm -f ABSAaa ABSAab ABSAac ABSAad ABSAae
 ```
 
+(**FOR WINDOWS USERS ONLY**)
+```bash
+cd ../../../LAB_10/part_2/bin
+del BERTa*
+cd ../../../LAB_11/part_1/bin
+del SUBa* POLa* SUBPOLa*
+cd ../../../LAB_11/part_2/bin
+del ABSAa*
+```
+
+
+
 ### Step 3: start to run the project!
 By following these steps, you will successfully have all the working files in their respective folders, enabling you to commence executing each exercise within this repository as per the instructions outlined in their respective **README.md** files.
 
