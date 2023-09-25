@@ -77,12 +77,12 @@ cat ABSAaa ABSAab ABSAac ABSAad ABSAae > Aspect_based_sentiment_analysis.pt
 rm -f ABSAaa ABSAab ABSAac ABSAad ABSAae
 ```
 
-(**FOR WINDOWS USERS ONLY**)
+**FOR WINDOWS USERS ONLY**: after running the code provided above, please proceed with the following code to ensure the proper removal of subfiles!
 ```bash
 cd ../../../LAB_10/part_2/bin
 del BERTa*
 cd ../../../LAB_11/part_1/bin
-del SUBa* POLa* SUBPOLa*
+del SUBa* POLaa POLab POLac POLad POLae SUBPOLa*
 cd ../../../LAB_11/part_2/bin
 del ABSAa*
 ```
