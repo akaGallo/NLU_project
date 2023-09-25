@@ -59,6 +59,7 @@ The following best-trained models, all built upon the extensive pre-trained BERT
 - `subjectivity.pt`, `polarity.pt` and `subjectivity_polarity.pt` in folder [*LAB_11/part_1/bin*](https://github.com/akaGallo/NLU_project/tree/main/LAB_11/part_1/bin)
 - `Aspect_based_sentiment_analysis.pt` in folder [*LAB_11/part_2/bin*](https://github.com/akaGallo/NLU_project/tree/main/LAB_11/part_2/bin)
 
+**FOR MAC AND LINUX USERS ONLY**
 ```bash
 cd NLU_project/LAB_10/part_2/bin
 cat BERTaa BERTab BERTac BERTad BERTae > BERT.pt
@@ -77,13 +78,22 @@ cat ABSAaa ABSAab ABSAac ABSAad ABSAae > Aspect_based_sentiment_analysis.pt
 rm -f ABSAaa ABSAab ABSAac ABSAad ABSAae
 ```
 
-**FOR WINDOWS USERS ONLY**: after running the code provided above, please proceed with the following code to ensure the proper removal of subfiles!
+**FOR WINDOWS USERS ONLY**
 ```bash
-cd ../../../LAB_10/part_2/bin
+cd NLU_project/LAB_10/part_2/bin
+cat BERTaa BERTab BERTac BERTad BERTae > BERT.pt
 del BERTa*
+
 cd ../../../LAB_11/part_1/bin
-del SUBa* POLaa POLab POLac POLad POLae SUBPOLa*
+cat SUBaa SUBab SUBac SUBad SUBae > subjectivity.pt
+del SUBa*
+cat POLaa POLab POLac POLad POLae > polarity.pt
+del POLaa POLab POLac POLad POLae
+cat SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae > subjectivity_polarity.pt
+del SUBPOLa*
+
 cd ../../../LAB_11/part_2/bin
+cat ABSAaa ABSAab ABSAac ABSAad ABSAae > Aspect_based_sentiment_analysis.pt
 del ABSAa*
 ```
 
