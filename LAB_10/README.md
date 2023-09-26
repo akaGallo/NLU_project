@@ -25,7 +25,7 @@ Before you start, make sure you have the following requirements fulfilled:
 - **torch**: PyTorch is a powerful deep learning framework for building and training neural networks.
 - **numpy**: NumPy is a fundamental library for numerical computations in Python, enabling array operations and linear algebra.
 - **tqdm**: tqdm is a library for creating progress bars in command-line interfaces, making it easier to track the progress of tasks.
-- **scikit-learn**: sklearn provides tools for data analysis and modeling, including support for classification, regression, clustering, and more.
+- **scikit-learn**: sklearn provides tools for data analysis and modeling.
 - **Transformers**: transformers. developed by Hugging Face, is a popular open-source library for NLP and deep learning tasks, particularly focused on state-of-the-art pre-trained models for a wide range of NLP applications. It provides an easy-to-use interface to access and utilize pre-trained transformer-based models, including BERT, GPT-2, RoBERTa, and many others.
 
 You can install the necessary dependencies using the following commands:
