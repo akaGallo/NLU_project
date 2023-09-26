@@ -17,7 +17,10 @@ Write your own implementation of the Stupid backoff algorithm. Train it and comp
 Suggestion: adapt the `compute_ppl` function to compute the perplexity of your model. The PPL has to be computed on the whole corpus and not at sentence level.
 
 ## Prerequisites
-Ensure you have Python 3.6 or higher installed on your machine. Install the necessary dependency:
+Before running the provided scripts, ensure you have the following prerequisite installed:
+- **NLTK**: NLTK (Natural Language Toolkit) is a powerful library for working with human language data, including text preprocessing, text analysis, and more.
+
+You can install the necessary dependencies using the following commands:
 ```bash
 pip install nltk
 ```
