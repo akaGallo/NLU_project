@@ -26,12 +26,12 @@ Learning how to disambiguate word senses:
 Same test set for all the experiments, you can use K-fold validation.
 
 ## Prerequisites
-Make sure you have the following dependencies installed:
-- NLTK
-- numpy
-- scikit-learn
+Before using the script, make sure you have the following dependencies installed:
+- **NLTK**: NLTK (Natural Language Toolkit) is a powerful library for working with human language data.
+- **NumPy**: NumPy provides support for large, multi-dimensional arrays and matrices, along with a variety of high-level mathematical functions to operate on these arrays.
+- **scikit-learn**: scikit-learn (sklearn) provides simple and efficient tools for data analysis and modeling, including support for classification, regression, clustering, and more.
 
-You can install them using `pip`:
+You can install the necessary dependencies using the following commands:
 ```bash
 pip install nltk
 pip install numpy
