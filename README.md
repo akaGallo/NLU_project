@@ -81,20 +81,20 @@ rm -f ABSAaa ABSAab ABSAac ABSAad ABSAae
 **FOR WINDOWS USERS ONLY**
 ```bash
 cd NLU_project/LAB_10/part_2/bin
-cat BERTaa BERTab BERTac BERTad BERTae > BERT.pt
-del BERTa*
+type BERTaa BERTab BERTac BERTad BERTae > BERT.pt
+del BERTaa BERTab BERTac BERTad BERTae
 
 cd ../../../LAB_11/part_1/bin
-copy /b SUBaa+SUBab+SUBac+SUBad+SUBae subjectivity.pt
-del SUBa*
-cat POLaa POLab POLac POLad POLae > polarity.pt
+type SUBaa SUBab SUBac SUBad SUBae > subjectivity.pt
+del SUBaa SUBab SUBac SUBad SUBae
+type POLaa POLab POLac POLad POLae > polarity.pt
 del POLaa POLab POLac POLad POLae
-cat SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae > subjectivity_polarity.pt
-del SUBPOLa*
+type SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae > subjectivity_polarity.pt
+del SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae
 
-cd ../../../LAB_11/part_2/bin
-cat ABSAaa ABSAab ABSAac ABSAad ABSAae > Aspect_based_sentiment_analysis.pt
-del ABSAa*
+cd ../../part_2/bin
+type ABSAaa ABSAab ABSAac ABSAad ABSAae > Aspect_based_sentiment_analysis.pt
+del ABSAaa ABSAab ABSAac ABSAad ABSAae
 ```
 
 
