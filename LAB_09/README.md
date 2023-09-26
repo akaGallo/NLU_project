@@ -26,6 +26,16 @@ Add to best model of Part 1 the following regularizations described in [Regulari
 - Non-monotonically Triggered AvSGD (PPL)
 
 ## Prerequisites
+Before running the provided scripts, ensure you have the following prerequisites installed:
+- **torch**: PyTorch, a powerful deep learning framework for building and training neural networks.
+math: Python's built-in math library, providing mathematical functions and operations.
+copy: Python's built-in copy library, used for copying objects and data structures.
+numpy: NumPy, a fundamental library for numerical computations in Python, enabling array operations and linear algebra.
+tqdm: tqdm, a library for creating progress bars in command-line interfaces, making it easier to track the progress of tasks.
+
+You can install the necessary dependencies using the following commands:
+
+
 Before you start, make sure you have the following requirements fulfilled:
 - NumPy: used for numerical computations
 - matplotlib: provides a wide range of tools for creating various types of plots, graphs, charts, and other data visualizations
@@ -33,7 +43,7 @@ Before you start, make sure you have the following requirements fulfilled:
 - torchvision: designed for image tasks
 - Gensim: an open-source Python library designed for topic modeling and natural language processing
 ```bash
-pip install spacy
+
 pip install numpy
 pip install matplotlib
 pip install tqdm
