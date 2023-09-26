@@ -68,8 +68,10 @@ rm -f BERTaa BERTab BERTac BERTad BERTae
 cd ../../../LAB_11/part_1/bin
 cat SUBaa SUBab SUBac SUBad SUBae > subjectivity.pt
 rm -f SUBaa SUBab SUBac SUBad SUBae
+
 cat POLaa POLab POLac POLad POLae > polarity.pt
 rm -f POLaa POLab POLac POLad POLae
+
 cat SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae > subjectivity_polarity.pt
 rm -f SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae
 
@@ -82,22 +84,22 @@ rm -f ABSAaa ABSAab ABSAac ABSAad ABSAae
 ```bash
 cd NLU_project/LAB_10/part_2/bin
 type BERTaa BERTab BERTac BERTad BERTae > BERT.pt
-del BERTaa BERTab BERTac BERTad BERTae
+del /F BERTaa BERTab BERTac BERTad BERTae
 
 cd ../../../LAB_11/part_1/bin
 type SUBaa SUBab SUBac SUBad SUBae > subjectivity.pt
-del SUBaa SUBab SUBac SUBad SUBae
+del /F SUBaa SUBab SUBac SUBad SUBae
+
 type POLaa POLab POLac POLad POLae > polarity.pt
-del POLaa POLab POLac POLad POLae
+del /F POLaa POLab POLac POLad POLae
+
 type SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae > subjectivity_polarity.pt
-del SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae
+del /F SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae
 
 cd ../../part_2/bin
 type ABSAaa ABSAab ABSAac ABSAad ABSAae > Aspect_based_sentiment_analysis.pt
-del ABSAaa ABSAab ABSAac ABSAad ABSAae
+del /F ABSAaa ABSAab ABSAac ABSAad ABSAae
 ```
-
-
 
 ### Step 3: start to run the project!
 By following these steps, you will successfully have all the working files in their respective folders, enabling you to commence executing each exercise within this repository as per the instructions outlined in their respective **README.md** files.
