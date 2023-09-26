@@ -30,21 +30,18 @@ pd_tbl.round(decimals = 3)
 ```
 
 ## Prerequisites
-To run this code, you will need the following libraries and resources:
-- NLTK
-- Spacy
-- Pandas
-- Scikit-learn-crfsuite (CRF implementation)
-- conll2002 (NLTK's dataset for Spanish NER)
-- es_core_news_sm (SpaCy's small Spanish language model)
+Before using the script, make sure you have the following dependencies installed:
+- **NLTK**: NLTK (Natural Language Toolkit) is a powerful library for working with human language data.
+- **SpaCy**: SpaCy is a library for advanced natural language processing in Python.
+- **Pandas**: Pandas is a powerful library for data manipulation and analysis.
+- **sklearn_crfsuite**: this library provides tools for implementing Conditional Random Fields (CRFs) in scikit-learn.
 
-You can install the required libraries using the following command:
+You can install the necessary dependencies using the following commands:
 ```bash
 pip install nltk
 pip install spacy
 pip install pandas
-pip install python_crfsuite sklearn-crfsuite
-python -m spacy download es_core_news_sm
+pip install sklearn-crfsuite
 ```
 
 ## Usage
