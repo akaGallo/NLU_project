@@ -24,6 +24,7 @@ Before using the script, make sure you have the following dependencies installed
 - **NLTK**: NLTK (Natural Language Toolkit) is a powerful library for working with human language data.
 - **SpaCy**: SpaCy is a library for advanced natural language processing in Python.
 - **en_core_web_sm**: English language model en_core_web_sm is a small-sized model suitable for various natural language processing tasks.
+
 You can install the necessary dependencies using the following commands:
 ```bash
 pip install nltk
