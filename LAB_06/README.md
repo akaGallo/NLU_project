@@ -23,17 +23,19 @@ Learning how to:
 BUT! To evaluate the parsers, the sentences parsed by spacy and stanza have to be `DependencyGraph` objects. To do this, you have to covert the output of the spacy/stanza to [ConLL](https://universaldependencies.org/format.html) format, from this format extract the columns following the [Malt-Tab](https://cl.lingfil.uu.se/~nivre/research/MaltXML.html) format and finally convert the resulting string into a DependecyGraph. Luckly, there is a library that gets the job done. You have to install the library [spacy_conll](https://github.com/BramVanroy/spacy_conll) and use and adapt to your needs the code that you can find below.
 
 ## Prerequisites
-Make sure you have the required libraries installed:
-- NLTK library
-- SpaCy library
-- Stanza library
-- Spacy_stanza library: it wraps the Stanza library, so you can use Stanford's models as a spaCy pipeline
-- Spacy Conll library: it converts the output of the spacy/stanza to ConLL format, then from which extracts the columns following the Malt-Tab format and finally converts the resulting string into a DependecyGraph.
+Before using the script, make sure you have the following dependencies installed:
+- **NLTK**: NLTK (Natural Language Toolkit) is a powerful library for working with human language data.
+- **SpaCy**: SpaCy is a library for advanced natural language processing in Python.
+- **en_core_web_sm**: English language model en_core_web_sm is a small-sized model suitable for various natural language processing tasks.
+- **Stanza**: Stanza is an open-source NLP library designed for a wide range of NLP tasks, including tokenization, part-of-speech tagging, named entity recognition, dependency parsing, and more.
+- **Spacy Stanza**: Spacy Stanza wraps the Stanza library, so you can use Stanford's models as a spaCy pipeline
+- **Spacy Conll**: Spacy Conll converts the output of the spacy/stanza to ConLL format, then from which extracts the columns following the Malt-Tab format and finally converts the resulting string into a DependecyGraph.
 
 You can install the necessary dependencies using the following commands:
 ```bash
 pip install nltk
 pip install spacy
+python -m spacy download en_core_web_sm 
 pip install stanza
 pip install spacy_stanza
 pip install spacy_conll
