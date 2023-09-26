@@ -55,14 +55,24 @@ References:
 - [Open-Domain Targeted Sentiment Analysis via Span-Based Extraction and Classification](https://arxiv.org/pdf/1906.03820.pdf).
 
 ## Prerequisites
-Before using the script, make sure you have the following dependencies installed:
-- Python 3.x
-- NLTK library
-- SpaCy library
+Before running the provided scripts, ensure you have the following prerequisites installed:
+- **NLTK**: NLTK (Natural Language Toolkit) is a powerful library for working with human language data.
+- **torch**: PyTorch is a powerful deep learning framework for building and training neural networks.
+- **NumPy**: NumPy provides support for large, multi-dimensional arrays and matrices, along with a variety of high-level mathematical functions to operate on these arrays.
+- **Pandas**: Pandas is a powerful library for data manipulation and analysis.
+- **tqdm**: tqdm is a library for creating progress bars in command-line interfaces, making it easier to track the progress of tasks.
+- **scikit-learn**: sklearn provides tools for data analysis and modeling.
+- **Transformers**: transformers. developed by Hugging Face, is a popular open-source library for NLP and deep learning tasks, particularly focused on state-of-the-art pre-trained models for a wide range of NLP applications. It provides an easy-to-use interface to access and utilize pre-trained transformer-based models, including BERT, GPT-2, RoBERTa, and many others.
+
 You can install the necessary dependencies using the following commands:
 ```bash
 pip install nltk
-pip install spacy
+pip install torch
+pip install numpy
+pip install pandas
+pip install tqdm
+pip install scikit-learn
+pip install transformers
 ```
 
 ## Dataset
