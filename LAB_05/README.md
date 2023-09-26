@@ -23,11 +23,14 @@ Learning how to:
 - Then, generate 10 sentences using a PCFG by experimenting with `nltk.parse.generate.generate` using different starting symbols and depths. Optionally, generate 10 sentences with `PCFG.generate()`.
 
 ## Prerequisites
-To used the probabilities on the production rules while generating, you can write your function or there is this library in python called PCFG. Make sure you have the required libraries installed, like a call to a tree draws using `svgling` module and the module `PYEVALB` for comparing two parse trees. You can install them using the following commands:
+Before using the script, make sure you have the following dependencies installed:
+- **NLTK**: NLTK (Natural Language Toolkit) is a powerful library for working with human language data.
+- **PCFG**: PCFG stands for "Probabilistic Context-Free Grammar," a formalism used in linguistics and NLP for modeling the syntax of natural language.
+
+You can install the necessary dependencies using the following commands:
 ```bash
+pip install nltk
 pip install pcfg
-pip install svgling
-pip install PYEVALB
 ```
 
 ## Usage
