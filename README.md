@@ -99,6 +99,7 @@ del /F SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae
 cd ..\..\part_2\bin
 copy /b ABSAaa+ABSAab+ABSAac+ABSAad+ABSAae Aspect_based_sentiment_analysis.pt
 del /F ABSAaa ABSAab ABSAac ABSAad ABSAae
+
 ```
 
 ### Step 3: start to run the project!
