@@ -82,11 +82,11 @@ rm -f ABSAaa ABSAab ABSAac ABSAad ABSAae
 
 **FOR WINDOWS USERS ONLY**
 ```bash
-cd NLU_project/LAB_10/part_2/bin
+cd .\NLU_project\LAB_10\part_2\bin
 copy /b BERTaa+BERTab+BERTac+BERTad+BERTae BERT.pt
 del /F BERTaa BERTab BERTac BERTad BERTae
 
-cd ../../../LAB_11/part_1/bin
+cd ..\..\..\LAB_11\part_1\bin
 copy /b SUBaa+SUBab+SUBac+SUBad+SUBae subjectivity.pt
 del /F SUBaa SUBab SUBac SUBad SUBae
 
@@ -96,7 +96,7 @@ del /F POLaa POLab POLac POLad POLae
 copy /b SUBPOLaa+SUBPOLab+SUBPOLac+SUBPOLad+SUBPOLae subjectivity_polarity.pt
 del /F SUBPOLaa SUBPOLab SUBPOLac SUBPOLad SUBPOLae
 
-cd ../../part_2/bin
+cd ..\..\part_2\bin
 copy /b ABSAaa+ABSAab+ABSAac+ABSAad+ABSAae Aspect_based_sentiment_analysis.pt
 del /F ABSAaa ABSAab ABSAac ABSAad ABSAae
 ```
