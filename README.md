@@ -106,7 +106,7 @@ del /F ABSAaa ABSAab ABSAac ABSAad ABSAae
 By following these steps, you will successfully have all the working files in their respective folders, enabling you to commence executing each exercise within this repository as per the instructions outlined in their respective **README.md** files.
 
 ## RUN
-The following image provides an illustrative example of the steps mentioned earlier, accompanied by the main launch of best trained models of exercises within the *LAB_09*, *LAB_10* and *LAB_11* folders (both *part_1* and *part_2*).
+The following image provides an illustrative example of the main launch of best trained models of exercises within the *LAB_09*, *LAB_10* and *LAB_11* folders (both *part_1* and *part_2*).
 
 ![Alt text](Results/ALL.png)
 
